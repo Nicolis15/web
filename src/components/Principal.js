@@ -43,6 +43,7 @@ export default function Principal(){
                     </div>
                 </div>
             </div>
+            
             <footer className='footer-principal'>
                 <div>
                     <img src={Github} onClick={redirigirgit}/>
@@ -53,7 +54,6 @@ export default function Principal(){
                     <h3 onClick={redirigirLink}>Linkedin</h3>
                 </div>
             </footer>
-
         </div>
     );
 }
