@@ -7,9 +7,6 @@ import Hoby from '../resourse/hobys.png'
 import Blog from '../resourse/blog.png'
 import { useNavigate } from 'react-router-dom';
 
-
-
-
 const redirigirLink = () =>{
     window.location.href = 'https://www.linkedin.com/in/nicolasliscruz/';
 }
