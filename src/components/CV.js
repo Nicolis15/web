@@ -13,6 +13,7 @@ export default function CV(){
         display : 'flex',
         justifyContent: 'center',
         background : 'white',
+        textAlign: 'center',
         padding : '5px'
     }   
 
@@ -31,6 +32,8 @@ export default function CV(){
         flexDirection: 'column',
         borderRadius: '20px'    
     }
+
+    
     return(
         <div style={stylePrincipal}>
 
@@ -46,6 +49,13 @@ export default function CV(){
                 <div style={objContenedor}> 
                     <h2>Objetivo profecional</h2>
                     <p>Busco oportunidades para aplicar y ampliar mis habilidades en el desarrollo móvil en un entorno dinámico. Estoy entusiasmado por contribuir a proyectos innovadores, aprender de profesionales experimentados y aportar al crecimiento de equipos de desarrollo.</p>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Idiomas</h2>
+                    </div>
+
                 </div>
             </div>
         </div>
