@@ -1,22 +1,27 @@
 {
   "files": {
     "main.css": "/web/static/css/main.8f0a582c.css",
-    "main.js": "/web/static/js/main.fdacedea.js",
+    "main.js": "/web/static/js/main.2364a2eb.js",
     "static/js/453.c80b053f.chunk.js": "/web/static/js/453.c80b053f.chunk.js",
     "static/media/Perfil.jpg": "/web/static/media/Perfil.7a423af99bf4a9569df2.jpg",
     "static/media/fondo.png": "/web/static/media/fondo.6cdb19c4afb593a41fe8.png",
+    "static/media/kotlinLogo.png": "/web/static/media/kotlinLogo.859938b6e55d783ff094.png",
     "static/media/linkedin.png": "/web/static/media/linkedin.792f88439587d32c00fb.png",
+    "static/media/jetpackLogo.png": "/web/static/media/jetpackLogo.73a1d78e599999f97841.png",
+    "static/media/cssLogo.png": "/web/static/media/cssLogo.02d225c7df0b28341d8d.png",
     "static/media/hobys.png": "/web/static/media/hobys.959780bf54474937ae53.png",
     "static/media/blog.png": "/web/static/media/blog.8b6d02a9615fcdaa9c8a.png",
+    "static/media/htmlLogo.png": "/web/static/media/htmlLogo.433fda35ec3b24cb2a74.png",
     "static/media/cvlogo.png": "/web/static/media/cvlogo.cd601ddf7885fd1ff72b.png",
+    "static/media/javascriptLogo.png": "/web/static/media/javascriptLogo.3dfb665e058d08c99f28.png",
     "static/media/logo.svg": "/web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/web/index.html",
     "main.8f0a582c.css.map": "/web/static/css/main.8f0a582c.css.map",
-    "main.fdacedea.js.map": "/web/static/js/main.fdacedea.js.map",
+    "main.2364a2eb.js.map": "/web/static/js/main.2364a2eb.js.map",
     "453.c80b053f.chunk.js.map": "/web/static/js/453.c80b053f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f0a582c.css",
-    "static/js/main.fdacedea.js"
+    "static/js/main.2364a2eb.js"
   ]
 }
