@@ -111,6 +111,7 @@ export default function CV(){
                         <img src={reactLogo} style={styleImg}/>
                         <img src={sqlLogo} style={styleImg}/>
                         <img src={javaLogo} style={styleImg}/>
+                        
                     </div>
 
                 </div>
