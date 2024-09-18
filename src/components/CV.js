@@ -48,8 +48,6 @@ export default function CV(){
                     <p>Busco oportunidades para aplicar y ampliar mis habilidades en el desarrollo móvil en un entorno dinámico. Estoy entusiasmado por contribuir a proyectos innovadores, aprender de profesionales experimentados y aportar al crecimiento de equipos de desarrollo.</p>
                 </div>
             </div>
-
-
         </div>
     )
 }
