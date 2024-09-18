@@ -2,6 +2,9 @@ import React from 'react';
 import perfil from '../resourse/Perfil.jpg'
 import Github from '../resourse/github.png'
 import linkedin from '../resourse/linkedin.png'
+import cvlogo from '../resourse/cvlogo.png'
+import Hoby from '../resourse/hobys.png'
+import Blog from '../resourse/blog.png'
 
 
 const redirigirLink = () =>{
@@ -22,10 +25,22 @@ export default function Principal(){
 
             <div className='contenedor-inferior'>
                 <div className='contenedor-cartas'>
-                    <div className='carta1'></div>
-                    <div className='carta2'></div>
-                    <div className='carta3'></div>
-                    <div className='carta4'></div>
+                    <div className='carta1'>
+                        <h3>Hoja de vida CV</h3>
+                        <img src={cvlogo}/>
+                    </div>
+                    <div className='carta2'>
+                        <h3>Repositorios de github</h3>
+                        <img src={Github}/>
+                    </div>
+                    <div className='carta3'>
+                        <h3>Mis hobbys</h3>
+                        <img src={Hoby}/>
+                    </div>
+                    <div className='carta4'>
+                        <h3>Blog personal</h3>
+                        <img src={Blog}/>
+                    </div>
                 </div>
             </div>
             <footer className='footer-principal'>

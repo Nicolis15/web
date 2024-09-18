@@ -157,4 +157,20 @@
   cursor: pointer;
 }
 
+.contenedor-cartas div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-cartas img{
+  max-width: 150px;
+}
+
+.contenedor-cartas h3{
+  text-align: center;
+  color: white;
+}
+
 
