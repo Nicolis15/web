@@ -5,6 +5,9 @@ import linkedin from '../resourse/linkedin.png'
 import cvlogo from '../resourse/cvlogo.png'
 import Hoby from '../resourse/hobys.png'
 import Blog from '../resourse/blog.png'
+import { useNavigate } from 'react-router-dom';
+
+
 
 
 const redirigirLink = () =>{
@@ -16,6 +19,11 @@ const redirigirgit = () =>{
 }
 
 export default function Principal(){
+    const navegar = useNavigate();
+
+    const navCv = () => {
+      navegar('/cv');
+    };
     return(
         <div className = 'contenedor-principal'>
             <div className = 'contenedor-superior'>
@@ -25,7 +33,7 @@ export default function Principal(){
 
             <div className='contenedor-inferior'>
                 <div className='contenedor-cartas'>
-                    <div className='carta1'>
+                    <div className='carta1' onClick={navCv}>
                         <h3>Hoja de vida CV</h3>
                         <img src={cvlogo}/>
                     </div>
@@ -55,6 +63,7 @@ export default function Principal(){
                 </div>
             </footer>
         </div>
+        
     );
 }
 
