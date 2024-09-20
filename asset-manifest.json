@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.88001a38.css",
-    "main.js": "/web/static/js/main.3356d74d.js",
+    "main.js": "/web/static/js/main.46cef9a0.js",
     "static/js/453.c80b053f.chunk.js": "/web/static/js/453.c80b053f.chunk.js",
     "static/media/Perfil.jpg": "/web/static/media/Perfil.7a423af99bf4a9569df2.jpg",
     "static/media/fondo.png": "/web/static/media/fondo.6cdb19c4afb593a41fe8.png",
@@ -9,6 +9,7 @@
     "static/media/linkedin.png": "/web/static/media/linkedin.792f88439587d32c00fb.png",
     "static/media/jetpackLogo.png": "/web/static/media/jetpackLogo.73a1d78e599999f97841.png",
     "static/media/reactLogo.png": "/web/static/media/reactLogo.8e06788b3b8bd65238b2.png",
+    "static/media/sqlLogo.png": "/web/static/media/sqlLogo.ca43e7ff4eed6220566a.png",
     "static/media/javaLogo.png": "/web/static/media/javaLogo.eb2a90c92eeaf56b82a6.png",
     "static/media/cssLogo.png": "/web/static/media/cssLogo.02d225c7df0b28341d8d.png",
     "static/media/hobys.png": "/web/static/media/hobys.959780bf54474937ae53.png",
@@ -18,11 +19,11 @@
     "static/media/javascriptLogo.png": "/web/static/media/javascriptLogo.3dfb665e058d08c99f28.png",
     "index.html": "/web/index.html",
     "main.88001a38.css.map": "/web/static/css/main.88001a38.css.map",
-    "main.3356d74d.js.map": "/web/static/js/main.3356d74d.js.map",
+    "main.46cef9a0.js.map": "/web/static/js/main.46cef9a0.js.map",
     "453.c80b053f.chunk.js.map": "/web/static/js/453.c80b053f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88001a38.css",
-    "static/js/main.3356d74d.js"
+    "static/js/main.46cef9a0.js"
   ]
 }
