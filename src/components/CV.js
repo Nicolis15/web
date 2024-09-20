@@ -37,7 +37,7 @@ export default function CV(){
         background : 'white',
         width : '20%',
         display : 'flex',
-        padding : '20px',
+        padding : '10px',
         margin : '20px',
         alignItems: 'center',
         flexDirection: 'column',
