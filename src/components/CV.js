@@ -99,8 +99,8 @@ export default function CV(){
                         <img src={cssLogo} style={styleImg}/>
                         <img src={javascriptLogo} style={styleImg}/>
                         <img src={reactLogo} style={styleImg}/>
-                        <img src={sqlLogo} style={styleImg}/>
                         <img src={javaLogo} style={styleImg}/>
+                        <img src={sqlLogo} style={styleImg}/>
 
                     </div>
 
