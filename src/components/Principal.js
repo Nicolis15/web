@@ -21,6 +21,11 @@ export default function Principal(){
     const navCv = () => {
       navegar('/cv');
     };
+
+    const navRepositorio = () => {
+        navegar('/repositorio');
+      };
+
     return(
         <div className = 'contenedor-principal'>
             <div className = 'contenedor-superior'>
@@ -34,7 +39,7 @@ export default function Principal(){
                         <h3>Hoja de vida CV</h3>
                         <img src={cvlogo}/>
                     </div>
-                    <div className='carta2'>
+                    <div className='carta2' onClick={navRepositorio}>
                         <h3>Repositorios de github</h3>
                         <img src={Github}/>
                     </div>

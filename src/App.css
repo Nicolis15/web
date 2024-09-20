@@ -37,6 +37,13 @@
   }
 }
 
+body, html {
+  background: #282c34;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
 .contenedor-principal{
   background-color: #282c34;
   flex: 1;
@@ -174,5 +181,17 @@
   text-align: center;
   color: white;
 }
+.contenedor-principal-cv{
+  background-color: #282c34;
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+}
 
+.contenedor-repo-principal{
+  background: #282c34;
+  min-height: 100dvh;
+  top: 0;
+}
 

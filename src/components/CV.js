@@ -1,4 +1,4 @@
-
+import React from 'react';
 import htmlLogo from '../resourse/htmlLogo.png'
 import kotlinLogo from '../resourse/kotlinLogo.png'
 import jetpackLogo from '../resourse/jetpackLogo.png'
@@ -8,18 +8,8 @@ import reactLogo from '../resourse/reactLogo.png'
 import sqlLogo from '../resourse/sqlLogo.png'
 import javaLogo from '../resourse/javaLogo.png'
 
-
 export default function CV(){
-    const stylePrincipal = {
-        background : '#282c34',
-        display : 'flex',
-        height: '100vh',
-        alignItems: 'center',
-        flexDirection: 'column'
-    }
-
     const styleTitulo = {
-        width: '100%',
         display : 'flex',
         justifyContent: 'center',
         background : 'white',
@@ -71,7 +61,7 @@ export default function CV(){
         padding : '10px'
     }
     return(
-        <div style={stylePrincipal}>
+        <div className='contenedor-principal-cv'>
 
             <div style={styleTitulo}>
                 <h1>Nicolas Lis Cruz</h1>
@@ -111,7 +101,7 @@ export default function CV(){
                         <img src={reactLogo} style={styleImg}/>
                         <img src={sqlLogo} style={styleImg}/>
                         <img src={javaLogo} style={styleImg}/>
-                        
+
                     </div>
 
                 </div>
