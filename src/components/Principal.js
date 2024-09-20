@@ -26,6 +26,10 @@ export default function Principal(){
         navegar('/repositorio');
       };
 
+      const navBlog = () => {
+        navegar('/blog');
+      };
+
     return(
         <div className = 'contenedor-principal'>
             <div className = 'contenedor-superior'>
@@ -47,7 +51,7 @@ export default function Principal(){
                         <h3>Mis hobbys</h3>
                         <img src={Hoby}/>
                     </div>
-                    <div className='carta4'>
+                    <div className='carta4' onClick={navBlog }>
                         <h3>Blog personal</h3>
                         <img src={Blog}/>
                     </div>
