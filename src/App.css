@@ -54,6 +54,7 @@ body, html {
 
 .contenedor-superior{
   background-image: url('./resourse/fondo.png');
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
   display: flex;
   align-items: center;
   flex-direction: column;

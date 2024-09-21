@@ -9,6 +9,7 @@ import sqlLogo from '../resourse/sqlLogo.png'
 import javaLogo from '../resourse/javaLogo.png'
 
 export default function CV(){
+
     const styleTitulo = {
         display : 'flex',
         justifyContent: 'center',
@@ -16,6 +17,7 @@ export default function CV(){
         textAlign: 'center',
         padding : '5px'
     }   
+
 
     const contenedor = {
         display : 'flex',
@@ -30,7 +32,7 @@ export default function CV(){
         maxWidth : '50%',
         alignItems: 'center',
         flexDirection: 'column',
-        borderRadius: '20px'    
+        borderRadius: '20px'
     }
 
     const contenedorIdioma = {
@@ -52,7 +54,7 @@ export default function CV(){
         margin : '20px',
         alignItems: 'center',
         flexDirection: 'column',
-        borderRadius: '20px'
+        borderRadius: '20px',
     }
 
     const styleImg = {
@@ -83,9 +85,9 @@ export default function CV(){
                 <div style={contenedorIdioma}>
                     <h2>Idiomas</h2>
                     <ul>
-                        <li>Español nativo</li>
-                        <li>Ingles intermedio</li>
-                        <li>Portugues basico</li>
+                        <li>Español Nativo</li>
+                        <li>Ingles Intermedio</li>
+                        <li>Portugues Basico</li>
                     </ul>
                 </div>
 

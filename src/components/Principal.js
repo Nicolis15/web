@@ -26,9 +26,13 @@ export default function Principal(){
         navegar('/repositorio');
       };
 
-      const navBlog = () => {
+    const navBlog = () => {
         navegar('/blog');
-      };
+    };
+
+    const navHobbies = () => {
+        navegar('/hobbies');
+    };
 
     return(
         <div className = 'contenedor-principal'>
@@ -47,7 +51,7 @@ export default function Principal(){
                         <h3>Repositorios de github</h3>
                         <img src={Github}/>
                     </div>
-                    <div className='carta3'>
+                    <div className='carta3' onClick={navHobbies}>
                         <h3>Mis hobbys</h3>
                         <img src={Hoby}/>
                     </div>
